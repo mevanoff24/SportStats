@@ -1,5 +1,8 @@
 class User < ActiveRecord::Base
 
+	has_many :teams
+	has_many :fantasy_teams
+
 	def self.from_omniauth(auth)
     user = User.find_or_create_by(provider: auth.provider, uid: auth.uid)
     user.name = auth.info.name

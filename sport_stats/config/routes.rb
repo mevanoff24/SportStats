@@ -1,5 +1,37 @@
 Rails.application.routes.draw do
 
+  get 'fantasy_team/index'
+
+  get 'fantasy_team/show'
+
+  get 'fantasy_team/new'
+
+  get 'fantasy_team/create'
+
+  get 'fantasy_team/edit'
+
+  get 'fantasy_team/update'
+
+  get 'fantasy_team/destroy'
+
+  get 'team/index'
+
+  get 'team/show'
+
+  get 'team/new'
+
+  get 'team/create'
+
+  get 'team/edit'
+
+  get 'team/update'
+
+  get 'team/destroy'
+
+  resources :teams
+
+  resources :fantasy_teams
+
   get 'welcome/index'
 
   get 'auth/:provider/callback', to: 'sessions#create'
