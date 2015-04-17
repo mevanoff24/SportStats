@@ -1,0 +1,605 @@
+	{
+    "collection1": [
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Anaheim,_California",
+          "text": "Anaheim, California"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Los_Angeles_Angels_of_Anaheim",
+          "text": "Los Angeles Angels of Anaheim"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Angel_Stadium_of_Anaheim",
+          "text": "Angel Stadium of Anaheim"
+        },
+        "image": {
+          "alt": "Angels",
+          "href": "http://www.foxsports.com/mlb/los-angeles-angels-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/3.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/San_Francisco",
+          "text": "San Francisco, California"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/San_Francisco_Giants",
+          "text": "San Francisco Giants"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/AT%26T_Park",
+          "text": "AT&T Park"
+        },
+        "image": {
+          "alt": "Giants",
+          "href": "http://www.foxsports.com/mlb/san-francisco-giants-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/26.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/St._Louis",
+          "text": "St. Louis, Missouri"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/St._Louis_Cardinals",
+          "text": "St. Louis Cardinals"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Busch_Stadium",
+          "text": "Busch Stadium"
+        },
+        "image": {
+          "alt": "Cardinals",
+          "href": "http://www.foxsports.com/mlb/st-louis-cardinals-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/24.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Phoenix,_Arizona",
+          "text": "Phoenix, Arizona"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Arizona_Diamondbacks",
+          "text": "Arizona Diamondbacks"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Chase_Field",
+          "text": "Chase Field"
+        },
+        "image": {
+          "alt": "Diamondbacks",
+          "href": "http://www.foxsports.com/mlb/arizona-diamondbacks-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/29.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Queens",
+          "text": "Queens, New York City, New York"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/New_York_Mets",
+          "text": "New York Mets"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Citi_Field",
+          "text": "Citi Field"
+        },
+        "image": {
+          "alt": "Mets",
+          "href": "http://www.foxsports.com/mlb/new-york-mets-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/21.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Philadelphia",
+          "text": "Philadelphia, Pennsylvania"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Philadelphia_Phillies",
+          "text": "Philadelphia Phillies"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Citizens_Bank_Park",
+          "text": "Citizens Bank Park"
+        },
+        "image": {
+          "alt": "Phillies",
+          "href": "http://www.foxsports.com/mlb/philadelphia-phillies-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/22.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Detroit",
+          "text": "Detroit, Michigan"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Detroit_Tigers",
+          "text": "Detroit Tigers"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Comerica_Park",
+          "text": "Comerica Park"
+        },
+        "image": {
+          "alt": "Tigers",
+          "href": "http://www.foxsports.com/mlb/detroit-tigers-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/6.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Denver",
+          "text": "Denver, Colorado"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Colorado_Rockies",
+          "text": "Colorado Rockies"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Coors_Field",
+          "text": "Coors Field"
+        },
+        "image": {
+          "alt": "Rockies",
+          "href": "http://www.foxsports.com/mlb/colorado-rockies-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/27.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Los_Angeles",
+          "text": "Los Angeles, California"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+          "text": "Los Angeles Dodgers"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Dodger_Stadium",
+          "text": "Dodger Stadium"
+        },
+        "image": {
+          "alt": "Dodgers",
+          "href": "http://www.foxsports.com/mlb/los-angeles-dodgers-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/19.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Boston",
+          "text": "Boston, Massachusetts"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Boston_Red_Sox",
+          "text": "Boston Red Sox"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Fenway_Park",
+          "text": "Fenway Park"
+        },
+        "image": {
+          "alt": "Red Sox",
+          "href": "http://www.foxsports.com/mlb/boston-red-sox-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/2.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Arlington,_Texas",
+          "text": "Arlington, Texas"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Texas_Rangers_(baseball)",
+          "text": "Texas Rangers"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Globe_Life_Park_in_Arlington",
+          "text": "Globe Life Park in Arlington"
+        },
+        "image": {
+          "alt": "Rangers",
+          "href": "http://www.foxsports.com/mlb/texas-rangers-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/13.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Cincinnati",
+          "text": "Cincinnati, Ohio"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Cincinnati_Reds",
+          "text": "Cincinnati Reds"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Great_American_Ball_Park",
+          "text": "Great American Ball Park"
+        },
+        "image": {
+          "alt": "Reds",
+          "href": "http://www.foxsports.com/mlb/cincinnati-reds-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/17.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Kansas_City,_Missouri",
+          "text": "Kansas City, Missouri"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Kansas_City_Royals",
+          "text": "Kansas City Royals"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Kauffman_Stadium",
+          "text": "Kauffman Stadium"
+        },
+        "image": {
+          "alt": "Royals",
+          "href": "http://www.foxsports.com/mlb/kansas-city-royals-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/7.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Miami",
+          "text": "Miami, Florida"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Miami_Marlins",
+          "text": "Miami Marlins"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Marlins_Park",
+          "text": "Marlins Park"
+        },
+        "image": {
+          "alt": "Marlins",
+          "href": "http://www.foxsports.com/mlb/miami-marlins-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/28.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Milwaukee",
+          "text": "Milwaukee, Wisconsin"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Milwaukee_Brewers",
+          "text": "Milwaukee Brewers"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Miller_Park_(Milwaukee)",
+          "text": "Miller Park"
+        },
+        "image": {
+          "alt": "Brewers",
+          "href": "http://www.foxsports.com/mlb/milwaukee-brewers-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/8.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Houston",
+          "text": "Houston, Texas"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Houston_Astros",
+          "text": "Houston Astros"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Minute_Maid_Park",
+          "text": "Minute Maid Park"
+        },
+        "image": {
+          "alt": "Rangers",
+          "href": "http://www.foxsports.com/mlb/texas-rangers-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/13.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Washington,_D.C.",
+          "text": "Washington, D.C."
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Washington_Nationals",
+          "text": "Washington Nationals"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Nationals_Park",
+          "text": "Nationals Park"
+        },
+        "image": {
+          "alt": "Nationals",
+          "href": "http://www.foxsports.com/mlb/washington-nationals-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/20.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Oakland,_California",
+          "text": "Oakland, California"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Oakland_Athletics",
+          "text": "Oakland Athletics"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/O.co_Coliseum",
+          "text": "O.co Coliseum"
+        },
+        "image": {
+          "alt": "Athletics",
+          "href": "http://www.foxsports.com/mlb/oakland-athletics-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/11.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Baltimore",
+          "text": "Baltimore, Maryland"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Baltimore_Orioles",
+          "text": "Baltimore Orioles"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards",
+          "text": "Oriole Park at Camden Yards"
+        }, 
+        "image": {
+          "alt": "Orioles",
+          "href": "http://www.foxsports.com/mlb/baltimore-orioles-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/1.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/San_Diego",
+          "text": "San Diego, California"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/San_Diego_Padres",
+          "text": "San Diego Padres"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Petco_Park",
+          "text": "Petco Park"
+        }, 
+        "image": {
+          "alt": "Padres",
+          "href": "http://www.foxsports.com/mlb/san-diego-padres-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/25.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Pittsburgh",
+          "text": "Pittsburgh, Pennsylvania"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Pittsburgh_Pirates",
+          "text": "Pittsburgh Pirates"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/PNC_Park",
+          "text": "PNC Park"
+        },
+        "image": {
+          "alt": "Pirates",
+          "href": "http://www.foxsports.com/mlb/pittsburgh-pirates-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/23.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Cleveland",
+          "text": "Cleveland, Ohio"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Cleveland_Indians",
+          "text": "Cleveland Indians"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Progressive_Field",
+          "text": "Progressive Field"
+        },
+        "image": {
+          "alt": "Indians",
+          "href": "http://www.foxsports.com/mlb/cleveland-indians-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/5.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Toronto",
+          "text": "Toronto, Ontario, Canada"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Toronto_Blue_Jays",
+          "text": "Toronto Blue Jays"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Rogers_Centre",
+          "text": "Rogers Centre"
+        }, 
+        "image": {
+          "alt": "Blue Jays",
+          "href": "http://www.foxsports.com/mlb/toronto-blue-jays-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/14.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Seattle",
+          "text": "Seattle, Washington"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Seattle_Mariners",
+          "text": "Seattle Mariners"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Safeco_Field",
+          "text": "Safeco Field"
+        }, 
+        "image": {
+          "alt": "Mariners",
+          "href": "http://www.foxsports.com/mlb/seattle-mariners-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/12.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Minneapolis",
+          "text": "Minneapolis, Minnesota"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Minnesota_Twins",
+          "text": "Minnesota Twins"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Target_Field",
+          "text": "Target Field"
+        }, 
+        "image": {
+          "alt": "Twins",
+          "href": "http://www.foxsports.com/mlb/minnesota-twins-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/9.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/St._Petersburg,_Florida",
+          "text": "St. Petersburg, Florida"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Tampa_Bay_Rays",
+          "text": "Tampa Bay Rays"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Tropicana_Field",
+          "text": "Tropicana Field"
+        }, 
+        "image": {
+          "alt": "Rays",
+          "href": "http://www.foxsports.com/mlb/tampa-bay-rays-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/30.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Atlanta",
+          "text": "Atlanta, Georgia"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Atlanta_Braves",
+          "text": "Atlanta Braves"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Turner_Field",
+          "text": "Turner Field"
+        },
+        "image": {
+          "alt": "Braves",
+          "href": "http://www.foxsports.com/mlb/atlanta-braves-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/15.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Chicago",
+          "text": "Chicago, Illinois"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Chicago_White_Sox",
+          "text": "Chicago White Sox"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/U.S._Cellular_Field",
+          "text": "U.S. Cellular Field"
+        },
+        "image": {
+          "alt": "White Sox",
+          "href": "http://www.foxsports.com/mlb/chicago-white-sox-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/4.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/Chicago",
+          "text": "Chicago, Illinois"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/Chicago_Cubs",
+          "text": "Chicago Cubs"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Wrigley_Field",
+          "text": "Wrigley Field"
+        },
+        "image": {
+          "alt": "Cubs",
+          "href": "http://www.foxsports.com/mlb/chicago-cubs-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/16.png",
+          "text": ""
+        }
+      },
+      {
+        "city": {
+          "href": "http://en.wikipedia.org/wiki/The_Bronx",
+          "text": "The Bronx, New York City, New York"
+        },
+        "name": {
+          "href": "http://en.wikipedia.org/wiki/New_York_Yankees",
+          "text": "New York Yankees"
+        },
+        "stadium": {
+          "href": "http://en.wikipedia.org/wiki/Yankee_Stadium",
+          "text": "Yankee Stadium"
+        },
+        "image": {
+          "alt": "Yankees",
+          "href": "http://www.foxsports.com/mlb/new-york-yankees-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/10.png",
+          "text": ""
+        }
+      }
+    ]
+  }
+

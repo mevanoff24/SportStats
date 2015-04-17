@@ -1,2 +1,23 @@
-<h1>Team#index</h1>
-<p>Find me in app/views/team/index.html.erb</p>
+<h1>Find Your Team</h1>
+
+<% @teams.each do |team| %>
+<div class="table-responsive">
+	<table class="table">
+		<tbody>
+			<tr>
+				<td><%= image_tag team.image %></td>
+			</tr>
+			<tr>
+				<td><%= team.name %></td>
+			</tr>
+			<tr>
+				<td><%= team.city %></td>
+			</tr>
+			<tr>
+				<td><%= team.stadium %></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<% end %>

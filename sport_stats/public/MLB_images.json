@@ -1,0 +1,244 @@
+{
+    "collection1": [
+      {
+        "image": {
+          "alt": "Orioles",
+          "href": "http://www.foxsports.com/mlb/baltimore-orioles-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/1.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Red Sox",
+          "href": "http://www.foxsports.com/mlb/boston-red-sox-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/2.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Yankees",
+          "href": "http://www.foxsports.com/mlb/new-york-yankees-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/10.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Blue Jays",
+          "href": "http://www.foxsports.com/mlb/toronto-blue-jays-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/14.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Rays",
+          "href": "http://www.foxsports.com/mlb/tampa-bay-rays-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/30.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Angels",
+          "href": "http://www.foxsports.com/mlb/los-angeles-angels-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/3.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Athletics",
+          "href": "http://www.foxsports.com/mlb/oakland-athletics-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/11.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Mariners",
+          "href": "http://www.foxsports.com/mlb/seattle-mariners-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/12.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Rangers",
+          "href": "http://www.foxsports.com/mlb/texas-rangers-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/13.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Astros",
+          "href": "http://www.foxsports.com/mlb/houston-astros-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/18.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Indians",
+          "href": "http://www.foxsports.com/mlb/cleveland-indians-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/5.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Tigers",
+          "href": "http://www.foxsports.com/mlb/detroit-tigers-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/6.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "White Sox",
+          "href": "http://www.foxsports.com/mlb/chicago-white-sox-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/4.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Royals",
+          "href": "http://www.foxsports.com/mlb/kansas-city-royals-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/7.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Twins",
+          "href": "http://www.foxsports.com/mlb/minnesota-twins-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/9.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Nationals",
+          "href": "http://www.foxsports.com/mlb/washington-nationals-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/20.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Mets",
+          "href": "http://www.foxsports.com/mlb/new-york-mets-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/21.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Phillies",
+          "href": "http://www.foxsports.com/mlb/philadelphia-phillies-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/22.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Braves",
+          "href": "http://www.foxsports.com/mlb/atlanta-braves-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/15.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Marlins",
+          "href": "http://www.foxsports.com/mlb/miami-marlins-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/28.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Dodgers",
+          "href": "http://www.foxsports.com/mlb/los-angeles-dodgers-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/19.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Padres",
+          "href": "http://www.foxsports.com/mlb/san-diego-padres-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/25.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Giants",
+          "href": "http://www.foxsports.com/mlb/san-francisco-giants-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/26.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Rockies",
+          "href": "http://www.foxsports.com/mlb/colorado-rockies-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/27.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Diamondbacks",
+          "href": "http://www.foxsports.com/mlb/arizona-diamondbacks-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/29.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Brewers",
+          "href": "http://www.foxsports.com/mlb/milwaukee-brewers-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/8.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Cubs",
+          "href": "http://www.foxsports.com/mlb/chicago-cubs-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/16.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Pirates",
+          "href": "http://www.foxsports.com/mlb/pittsburgh-pirates-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/23.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Cardinals",
+          "href": "http://www.foxsports.com/mlb/st-louis-cardinals-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/24.png",
+          "text": ""
+        }
+      },
+      {
+        "image": {
+          "alt": "Reds",
+          "href": "http://www.foxsports.com/mlb/cincinnati-reds-team",
+          "src": "http://static.foxsports.com/fe/images/MLB/TeamLogo/Large/17.png",
+          "text": ""
+        }
+      }
+    ]
+  }

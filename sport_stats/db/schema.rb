@@ -24,10 +24,14 @@ ActiveRecord::Schema.define(version: 20150417173526) do
 
   create_table "teams", force: :cascade do |t|
     t.string   "name"
-    t.string   "sport"
+    t.string   "sport",      default: "MLB"
+    t.string   "stadium"
+    t.string   "city"
+    t.string   "image"
+    t.string   "division"
     t.integer  "user_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
   create_table "users", force: :cascade do |t|
