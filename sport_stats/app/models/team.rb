@@ -15,13 +15,19 @@ def self.main
     # Replace with your bot name and email/website to contact if there is a problem
     # e.g., "mybot/0.1 (https://erikberg.com/)"
     user_agent = "MyRobot/1.0 (mevanoff24@gmail.com)"
+
     # GONNA HAVE TO CHANGE
     team1 = User.first.teams.find_by(name:"San Francisco Giants").name.downcase.gsub(" ", "-")
     team2 = Team.find_by(name:"Arizona Diamondbacks").name.downcase.gsub(" ", "-")
+
+    date_today = Date.today.to_s.gsub("-","").to_i
+    date_today -=1
+    yesterday_date = date_today.to_s
+
     host = "erikberg.com"
     sport = "mlb"
     method = "boxscore"
-    id = "20150417-#{team1}-at-#{team2}"
+    id = "#{yesterday_date}-#{team1}-at-#{team2}"
     format = "json"
     parameters = {
         :sport => "mlb",
@@ -119,8 +125,9 @@ def self.schedule
     user_agent = "MyRobot/1.0 (mevanoff24@gmail.com)"
 
     date_today = Date.today.to_s.gsub("-","").to_i
-    yesterday_date = date_today -1
-    desired_date = yesterday_date.to_s
+    date_today -=1
+    yesterday_date = date_today.to_s
+
     host = "erikberg.com"
     sport = nil
     method = "events"
@@ -128,7 +135,7 @@ def self.schedule
     format = "json"
     parameters = {
         :sport => "mlb",
-        :date  => "#{desired_date}"
+        :date  => "#{yesterday_date}"
     }
     uri = self.build_uri(host, sport, method, id, format, parameters)
 
