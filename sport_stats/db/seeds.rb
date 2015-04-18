@@ -11,15 +11,9 @@ require "open-uri"
 
 
 teams = JSON.load(open("/Users/mattevanoff/Desktop/projects/SportStats/sport_stats/public/MLB_teams.json").read)
-# teams_img = JSON.load(open("/Users/mattevanoff/Desktop/projects/SportStats/sport_stats/public/MLB_images.json").read)
+
 teams['collection1'].each do |team|
-	# teams_img['collection1'].each do |img|
 
 	Team.create(name: team["name"]["text"], city: team["city"]["text"], stadium: team["stadium"]["text"], image: team["image"]["src"])
 
-	end
-# end
-
-
-
-
+end
