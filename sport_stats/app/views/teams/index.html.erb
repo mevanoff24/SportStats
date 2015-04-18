@@ -1,23 +1,15 @@
 <h1>Find Your Team</h1>
-
-<% @teams.each do |team| %>
-<div class="table-responsive">
-	<table class="table">
-		<tbody>
-			<tr>
-				<td><%= image_tag team.image %></td>
-			</tr>
-			<tr>
-				<td><%= team.name %></td>
-			</tr>
-			<tr>
-				<td><%= team.city %></td>
-			</tr>
-			<tr>
-				<td><%= team.stadium %></td>
-			</tr>
-		</tbody>
-	</table>
+<div class="band navigation">
+	<!-- <div class="row"> -->
+		<div class="col span_4 button button-primary button-selected">
+			<% @teams.each do |team| %>	
+				<div><%= image_tag team.image %></div>
+				<div><%= team.name %></div>
+				<div><%= team.city %></div>
+				<div><%= team.stadium %></div>
+			<% end %>
+		</div>
+	<!-- </div> -->
 </div>
 
-<% end %>
+curl --compressed -H "Authorization: Bearer 53bfd032-95a6-412f-86e3-66ba6c473098" https://erikberg.com/mlb/boxscore/20150416-san-francisco-giants-at-arizona-diamondbacks.json

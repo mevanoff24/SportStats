@@ -2,6 +2,7 @@ class TeamsController < ApplicationController
 
   before_action :set_user
 
+
   def index
     @teams = Team.all
   end
@@ -29,5 +30,7 @@ class TeamsController < ApplicationController
   def set_user
     @user = User.find_by(uid: params[:uid])
   end
+
+
 
 end
