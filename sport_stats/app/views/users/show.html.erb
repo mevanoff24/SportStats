@@ -1,5 +1,11 @@
 <h1><%= @user.name %></h1>
 
+<% @user_teams.each do |team| %>
+	<div><%= image_tag team.image %></div>
+	<div><%= team.name %></div>
+	<div><%= team.city %></div>
+	<div><%= team.stadium %></div>
+<% end %>
 
 <%= link_to "Add a favorite team", teams_path %> |
 
