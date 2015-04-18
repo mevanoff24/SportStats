@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   resources :users do
+    resources :teams
     resources :fantasy_teams
   end
     

@@ -13,4 +13,21 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require team.js
 //= require_tree .
+
+
+$(document).ready(function(){
+	
+	addFavoriteTeam();
+
+});
+
+function addFavoriteTeam() {
+	$('.team_choice_3').on('click', function() {
+		debugger
+		console.log("hi")
+	});
+
+}
+

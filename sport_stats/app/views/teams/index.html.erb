@@ -3,7 +3,7 @@
 	<!-- <div class="row"> -->
 		<div class="col span_4 button button-primary button-selected">
 			<% @teams.each do |team| %>	
-        <div><%= link_to (image_tag team.image, class: "team_choice_#{team.id}"), current_user %></div>
+        <div><%= link_to (image_tag team.image, class: "team_choice_#{team.id}"), user_teams_path(current_user, param1: "#{team.id}"), method: :post %></div>
 				<div><%= team.name %></div>
 				<div><%= team.city %></div>
 				<div><%= team.stadium %></div>
@@ -12,33 +12,6 @@
 	<!-- </div> -->
 </div>
 </br>
-<div>
 
-<div>AWAY TEAM <%= @away_team %></div>
-<div>AWAY TEAM SCORE <%= @away_team_score %></div>
-<div>HOME TEAM <%= @home_team %></div>
-<div>HOME TEAM SCORE <%= @home_team_score %></div>
-	
-<% @away_pitchers.each do |player| %>
-  <% if player["win"] == true %>
-    <div>Winning Pitcher: <%= player["display_name"] %></div>
-  <% elsif player["loss"] == true %>
-    <div>Losing Pitcher: <%= player["display_name"] %></div>
-  <% elsif player["save"] == true %>
-    <div>Save: <%= player["display_name"] %></div>
-  <% end %>
-<% end %>
-
-<% @home_pitchers.each do |player| %>
-  <% if player["win"] == true %>
-    <div>Winning Pitcher: <%= player["display_name"] %></div>
-  <% elsif player["loss"] == true %>
-    <div>Losing Pitcher: <%= player["display_name"] %></div>
-  <% elsif player["save"] == true %>
-    <div>Save: <%= player["display_name"] %></div>
-  <% end %>
-<% end %>
-
-</div>
 
 

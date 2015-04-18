@@ -5,7 +5,7 @@ require 'date'
 
 class Team < ActiveRecord::Base
 
-	belongs_to :user
+	has_many :users
 
 def self.main
     # Replace with your access token
