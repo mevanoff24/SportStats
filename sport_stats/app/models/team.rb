@@ -118,6 +118,9 @@ def self.schedule
     # e.g., "mybot/0.1 (https://erikberg.com/)"
     user_agent = "MyRobot/1.0 (mevanoff24@gmail.com)"
 
+    date_today = Date.today.to_s.gsub("-","").to_i
+    yesterday_date = date_today -1
+    desired_date = yesterday_date.to_s
     host = "erikberg.com"
     sport = nil
     method = "events"
@@ -125,7 +128,7 @@ def self.schedule
     format = "json"
     parameters = {
         :sport => "mlb",
-        :date  => "20150417"
+        :date  => "#{desired_date}"
     }
     uri = self.build_uri(host, sport, method, id, format, parameters)
 
