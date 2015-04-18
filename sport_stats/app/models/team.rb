@@ -15,13 +15,13 @@ def self.main
     user_agent = "MyRobot/1.0 (mevanoff24@gmail.com)"
 
     host = "erikberg.com"
-    sport = nil
-    method = "events"
-    id = nil
+    sport = "mlb"
+    method = "boxscore"
+    id = "20150417-san-diego-padres-at-chicago-cubs"
     format = "json"
     parameters = {
         :sport => "mlb",
-        :date  => "20150418"
+        :date  => nil
     }
     uri = self.build_uri(host, sport, method, id, format, parameters)
 
@@ -46,26 +46,65 @@ def self.main
     # Parses the JSON content and returns a reference
     # to Events (https://erikberg.com/api/methods/events)
     events = JSON.parse(data)
-    # Create DateTime object using the ISO 8601 formatted events_date
-    date = DateTime.iso8601(events['events_date'])
+    #SCORE
+    # ap events["away_team"]["full_name"]
+    # ap events["away_period_scores"].inject(:+)
+    # ap events["home_team"]["full_name"]
+    # ap events["home_period_scores"].inject(:+)
+    
+    # events["away_pitchers"].each do |player|
+    #   if player["win"] == true
+    #     puts "Winning Pitcher"
+    #     ap player["display_name"]
+    #   elsif player["loss"] == true
+    #     puts "Losing Pitcher"
+    #     ap player["display_name"]
+    #   elsif player["save"] == true
+    #     puts "Save"
+    #     ap player["display_name"]
+    #   end
+    # end
 
-    printf("Events on %s\n\n", date.strftime("%A, %B %e, %Y"));
-    printf("%-35s %5s %34s\n", "Time", "Event", "Status");
+    # events["home_pitchers"].each do |player|
+    #   if player["win"] == true
+    #     puts "Winning Pitcher"
+    #     ap player["display_name"]
+    #   elsif player["loss"] == true
+    #     puts "Losing Pitcher"
+    #     ap player["display_name"]
+    #   elsif player["save"] == true
+    #     puts "Save"
+    #     ap player["display_name"]
+    #   end
+    # end
+
+    # PLAYERS INFO PER GAME
+    # events["away_batters"].each do |player|
+    #   ap player["first_name"]
+    #   ap player["last_name"]
+    # ["away_pitchers"]
+    # end
+
+    # Create DateTime object using the ISO 8601 formatted events_date
+    # date = DateTime.iso8601(events['events_date'])
+
+    # printf("Events on %s\n\n", date.strftime("%A, %B %e, %Y"));
+    # printf("%-35s %5s %34s\n", "Time", "Event", "Status");
 
     # Loop through each Event (https://erikberg.com/api/objects/event)
-    events['event'].each { |event|
-        event_time = DateTime.iso8601(event['start_date_time'])
+    # events['event'].each { |event|
+    #     event_time = DateTime.iso8601(event['start_date_time'])
 
-        # Get team objects (https://erikberg.com/api/objects/team)
-        away_team = event['away_team']
-        home_team = event['home_team']
+    #     # Get team objects (https://erikberg.com/api/objects/team)
+    #     away_team = event['away_team']
+    #     home_team = event['home_team']
 
-        printf("%-12s %24s vs. %-24s %9s\n",
-          event_time.strftime("%l:%M %p"),
-          away_team['full_name'],
-          home_team['full_name'],
-          event['event_status']);
-    }
+    #     printf("%-12s %24s vs. %-24s %9s\n",
+    #       event_time.strftime("%l:%M %p"),
+    #       away_team['full_name'],
+    #       home_team['full_name'],
+    #       event['event_status']);
+    # }
 end
 
 # See https://erikberg.com/api/methods Request URL Convention for
@@ -80,5 +119,6 @@ def self.build_uri(host, sport, method, id, format, parameters)
     end
     return uri
 end
+
 
 end
