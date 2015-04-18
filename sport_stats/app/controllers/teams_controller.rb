@@ -1,8 +1,7 @@
 class TeamsController < ApplicationController
 
-  before_action :set_user
-
-
+  # before_action :set_user
+  
   def index
     @teams = Team.all
     @away_team = Team.main["away_team"]["full_name"]
@@ -11,24 +10,6 @@ class TeamsController < ApplicationController
     @home_team_score = Team.main["home_period_scores"].inject(:+)
     @away_pitchers = Team.main["away_pitchers"]
     @home_pitchers = Team.main["home_pitchers"]
-  end
-
-  def show
-  end
-
-  def new
-  end
-
-  def create
-  end
-
-  def edit
-  end
-
-  def update
-  end
-
-  def destroy
   end
 
   private

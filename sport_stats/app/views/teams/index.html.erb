@@ -3,7 +3,7 @@
 	<!-- <div class="row"> -->
 		<div class="col span_4 button button-primary button-selected">
 			<% @teams.each do |team| %>	
-				<div><%= image_tag team.image %></div>
+        <div><%= link_to (image_tag team.image, class: "team_choice_#{team.id}"), current_user %></div>
 				<div><%= team.name %></div>
 				<div><%= team.city %></div>
 				<div><%= team.stadium %></div>
