@@ -5,6 +5,7 @@ class TeamsController < ApplicationController
 
   def index
     @teams = Team.all
+    @schedule = Team.main
   end
 
   def show
