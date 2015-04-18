@@ -2,7 +2,7 @@
 
 <% @user_teams.each do |team| %>
 	<div><%= image_tag team.image %></div>
-	<div><%= team.name %></div>
+	<div class=<% team.name %>><%= team.name %></div>
 	<div><%= team.city %></div>
 	<div><%= team.stadium %></div>
 <% end %>
