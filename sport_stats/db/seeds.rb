@@ -17,3 +17,11 @@ teams['collection1'].each do |team|
 	Team.create(name: team["name"]["text"], city: team["city"]["text"], stadium: team["stadium"]["text"], image: team["image"]["src"])
 
 end
+
+players = JSON.load(open("/Users/mattevanoff/Desktop/projects/SportStats/sport_stats/public/MLB_players.json").read)
+
+players["collection2"].each do |player|
+
+	Player.create(name: player["property3"]["text"])
+
+end
