@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
 
-	has_many :teams
+	has_many :teams, dependent: :destroy
 	has_many :fantasy_teams, dependent: :destroy
 
 	def self.from_omniauth(auth)
