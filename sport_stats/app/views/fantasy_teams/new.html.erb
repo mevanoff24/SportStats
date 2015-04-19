@@ -10,6 +10,11 @@
       <%= f.label :player %>
       <%= f.text_field :player %>
 
+      <%= link_to_add_fields "Add Player", f, :players %>
+
+      <%= f.hidden_field :_destroy %>
+      <%= link_to "[remove]", "#", class: "remove_player" %>
+
       <%= f.submit "Create Team", class: "btn btn-primary" %>
     <% end %>
   </div>
