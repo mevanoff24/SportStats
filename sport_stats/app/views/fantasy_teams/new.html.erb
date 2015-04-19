@@ -11,12 +11,12 @@
 	</br>
       <%= f.fields_for :players do |builder| %>
 
-	     <div> 
+	     <div class="fields"> 
 	     	<%= builder.label :name, "Player Name" %>
-	      <%= builder.text_field :name %>
+	      <%= builder.text_field :name, rows: 3 %>
 
 	      <%= builder.check_box :_destroy %>
-	      <%= builder.label :_destroy, "remove", class: "remove_player" %>
+	      <%= builder.label :_destroy, class: "remove_player" %>
 	    </div>
 	  </br>
       <% end %>
