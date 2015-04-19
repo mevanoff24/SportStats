@@ -10,5 +10,6 @@ class UsersController < ApplicationController
     @away_pitchers = Team.main["away_pitchers"]
     @home_pitchers = Team.main["home_pitchers"]
 
+   	@fantasy_teams = FantasyTeam.find_by(user_id: params[:id])
 	end
 end
