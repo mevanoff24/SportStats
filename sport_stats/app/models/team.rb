@@ -13,10 +13,11 @@ def self.main
     user_agent = "MyRobot/1.0 (mevanoff24@gmail.com)"
 
     # GONNA HAVE TO CHANGE
-    team1 = User.first.teams.find_by(name:"San Francisco Giants").name.downcase.gsub(" ", "-")
-    # team2 = schedule
-    team2 = Team.find_by(name:"Arizona Diamondbacks").name.downcase.gsub(" ", "-")
-
+    # if User.first.teams != nil
+    #     team1 = User.first.teams.find_by(name:"San Francisco Giants").name.downcase.gsub(" ", "-")
+    # # team2 = schedule
+    #     team2 = Team.find_by(name:"Arizona Diamondbacks").name.downcase.gsub(" ", "-")
+    # end
     date_today = Date.today.to_s.gsub("-","").to_i
     date_today -=1
     yesterday_date = date_today.to_s
@@ -24,7 +25,8 @@ def self.main
     host = "erikberg.com"
     sport = "mlb"
     method = "boxscore"
-    id = "#{yesterday_date}-#{team1}-at-#{team2}"
+    # id = "#{yesterday_date}-#{team1}-at-#{team2}"
+    id = "#{yesterday_date}-san-francisco-giants-at-arizona-diamondbacks"
     format = "json"
     parameters = {
         :sport => "mlb",

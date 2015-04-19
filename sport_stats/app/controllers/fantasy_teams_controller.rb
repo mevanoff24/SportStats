@@ -9,6 +9,9 @@ class FantasyTeamsController < ApplicationController
   end
 
   def new
+
+    @user = User.find(params[:user_id])
+    @fantasy_team = FantasyTeam.new
   end
 
   def create
