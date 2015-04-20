@@ -20,6 +20,7 @@
 $(document).ready(function(){
 	
 	addFavoriteTeam();
+	remove_fields();
 
 });
 
@@ -31,8 +32,19 @@ function addFavoriteTeam() {
 
 }
 
-function remove_fields(link) {
-	$(link).previous("input[type=hidden]").val = "1";
-	$(link).up(".fields").hide();
+function remove_fields() {
+	$(".remove_fields").on("click", function(event){
+	$(this).prev("input[type=hidden]").val("1");
+	$(this).closest(".fields").hide();
+	event.preventDefault;
+	});
+}
+
+function add_fields(link, association, content) {
+  var new_id = new Date().getTime();
+  var regexp = new RegExp("new_" + association, "g")
+  $(link).up().insert({
+    before: content.replace(regexp, new_id)
+  });
 }
 
