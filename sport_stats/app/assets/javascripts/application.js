@@ -21,6 +21,7 @@ $(document).ready(function(){
 	
 	addFavoriteTeam();
 	remove_fields();
+	add_fields();
 
 });
 
