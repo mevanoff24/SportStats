@@ -11,17 +11,17 @@ class FantasyTeamsController < ApplicationController
   def new
     @user = User.find(params[:user_id])
     @fantasy_team = FantasyTeam.new
-    27.times { @fantasy_team.players.build }
+    1.times { @fantasy_team.players.build }
   end
 
   def create
     p params
-    player_length = params[:fantasy_team][:players_attributes].length
     @fantasy_team = FantasyTeam.new(name: params[:fantasy_team][:name], user_id: params[:user_id])
     if @fantasy_team.save
-      parmas_new = params[:fantasy_team][:players_attributes]
       counter = 0
-      until counter == params[:fantasy_team][:players_attributes].length
+      players_length = params[:fantasy_team][:players_attributes].length
+      parmas_new = params[:fantasy_team][:players_attributes]
+      until counter == players_length
         added_player = Player.find_by(name: parmas_new["#{counter}"][:name])
         @fantasy_team.players << added_player
         counter += 1

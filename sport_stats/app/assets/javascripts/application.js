@@ -19,19 +19,10 @@
 
 $(document).ready(function(){
 	
-	addFavoriteTeam();
 	remove_fields();
 	add_fields();
 
 });
-
-function addFavoriteTeam() {
-	$('.team_choice_3').on('click', function() {
-		debugger
-		console.log("hi")
-	});
-
-}
 
 function remove_fields() {
 	$(".remove_fields").on("click", function(event){
