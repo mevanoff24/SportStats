@@ -11,18 +11,21 @@ class FantasyTeamsController < ApplicationController
   def new
     @user = User.find(params[:user_id])
     @fantasy_team = FantasyTeam.new
-    2.times { @fantasy_team.players.build }
+    27.times { @fantasy_team.players.build }
   end
 
   def create
-    p params[:fantasy_team][:players_attributes]["0"][:name]
-    p params[:fantasy_team][:players_attributes]["1"][:name]
+    p params
+    player_length = params[:fantasy_team][:players_attributes].length
     @fantasy_team = FantasyTeam.new(name: params[:fantasy_team][:name], user_id: params[:user_id])
     if @fantasy_team.save
-      
-      added_player = Player.find_by(name: params[:fantasy_team][:players_attributes]["0"][:name])
-      @fantasy_team.players << added_player
-      
+      parmas_new = params[:fantasy_team][:players_attributes]
+      counter = 0
+      until counter == params[:fantasy_team][:players_attributes].length
+        added_player = Player.find_by(name: parmas_new["#{counter}"][:name])
+        @fantasy_team.players << added_player
+        counter += 1
+      end    
       flash[:notice] = "Successfully created team"
       redirect_to user_path(current_user)
     else
