@@ -26,7 +26,7 @@ def self.main
     sport = "mlb"
     method = "boxscore"
     # id = "#{yesterday_date}-#{team1}-at-#{team2}"
-    id = "#{yesterday_date}-san-francisco-giants-at-arizona-diamondbacks"
+    id = "#{yesterday_date}-san-diego-padres-at-colorado-rockies"
     format = "json"
     parameters = {
         :sport => "mlb",
