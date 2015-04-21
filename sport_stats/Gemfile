@@ -50,6 +50,7 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
   gem 'nyan-cat-formatter'
+  gem 'guard'
 end
 
 group :development, :test do
