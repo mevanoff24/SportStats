@@ -38,7 +38,18 @@ gem 'dotenv-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+
+end
+
+group :test do
+  gem 'faker', :git => 'https://github.com/stympy/faker.git'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'launchy'
+  gem 'selenium-webdriver'
+  gem 'nyan-cat-formatter'
 end
 
 group :development, :test do
