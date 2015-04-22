@@ -46,11 +46,13 @@ end
 group :test do
   gem 'faker', :git => 'https://github.com/stympy/faker.git'
   gem 'capybara'
+  gem 'turn'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
   gem 'nyan-cat-formatter'
   gem 'guard'
+  gem 'growl_notify'
 end
 
 group :development, :test do
