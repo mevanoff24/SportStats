@@ -38,8 +38,14 @@
 
 <div>
   <% if @fantasy_teams != nil %>
-    Team Name: <%= @fantasy_teams.name %>
+    <% @fantasy_teams.each do |team| %>
+      <div>Team Name: <%= team.name %></div>
+      Player: <% team.players.each do |player| %>
+        <li><%= player.name %></li>
+      <% end %>
+    <% end %>
   <% end %>
+
 </div>
 
 
